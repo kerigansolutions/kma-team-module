@@ -318,6 +318,8 @@ class Team
     public function addField(array $field)
     {
         acf_add_local_field($field);
+
+        return $this;
     }
 
 }
