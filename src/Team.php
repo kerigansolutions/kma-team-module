@@ -129,7 +129,7 @@ class Team
     }
     public function team_init()
     {
-        register_post_type('testimonial', array(
+        register_post_type('team', array(
             'labels' => array(
                 'name' => __($this->menuName, 'wordplate'),
                 'singular_name' => __($this->singularName, 'wordplate'),
